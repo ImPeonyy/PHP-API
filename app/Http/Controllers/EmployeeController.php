@@ -28,7 +28,7 @@ class EmployeeController extends Controller
      */
     public function create()
     {
-        return view('api.employees.create');
+        return view('employee.create');
     }
 
     /**

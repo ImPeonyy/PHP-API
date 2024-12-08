@@ -12,7 +12,7 @@
                         </h4>
                     </div>
                     <div class="card-body">
-                        <form action="{{ route('employee.update', $employee->id) }}" method="POST">
+                        <form action="{{ route('employees.update', $employee->id) }}" method="POST">
                             @csrf
                             @method('PUT')
 

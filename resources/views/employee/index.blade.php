@@ -44,13 +44,13 @@
                                     <td>{{ $employee->updated_at }}</td>
                                     <td>{{ $employee->role }}</td>
                                     <td>
-                                        {{-- <a href="{{ route('employee.edit', $employee->id) }}" class="btn btn-success">Edit</a>
-                                        <a href="{{ route('employee.show', $employee->id) }}" class="btn btn-info">Show</a>
+                                        <a href="{{ route('employee.edit', $employee->id) }}" class="btn btn-success">Edit</a>
+                                        <a href="{{ route('employees.show', $employee->id) }}" class="btn btn-info">Show</a>
 
-                                        <form action="{{ route('employee.destroy', $employee->id) }}" method="POST" class="d-inline">
+                                        <form action="{{ route('employees.destroy', $employee->id) }}" method="POST" class="d-inline">
                                             @csrf
                                             @method('DELETE')
-                                            <button type="submit" class="btn btn-danger">Delete</button> --}}
+                                            <button type="submit" class="btn btn-danger">Delete</button>
                                         </form>
                                     </td>
                                 </tr>
